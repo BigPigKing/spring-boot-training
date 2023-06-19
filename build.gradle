@@ -24,6 +24,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework:spring-webflux'
 	testImplementation 'org.springframework.graphql:spring-graphql-test'
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '5.2.4.Final' //Thanks for using https://jar-download.com
 }
 
 tasks.named('test') {
