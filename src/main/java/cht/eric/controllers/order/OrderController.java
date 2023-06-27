@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import cht.eric.models.tables.pojos.Order;
+import cht.eric.models.Order;
 import cht.eric.repositories.OrderRepository;
 
 
